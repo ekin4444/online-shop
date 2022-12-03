@@ -1,0 +1,273 @@
+<!-- videos, favs  -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Başlık -->
+
+<head>
+    <meta charset="utf-8">
+    <title href="index.html">Seeds Of Art</title>
+
+    <!-- ilgili sayfanın stil şablonları -->
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,400italic'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css'>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <!-- en dışta bulunan ve tüm divleri içeren CSS ID'sinin adı -->
+        <div class="wrapper">
+
+            <!-- belge veya bir bölüm için başlık -->
+            <header class="site-header">
+                <div class="inner-wrap">
+                    <!-- sayfanın kendi başlığı -->
+                    <h1>Seeds Of Art</h1>
+                    <ul class="list-inline">
+                        <li><a href="index.html" class="account">Home page</a></li>
+                        <li><a href="aboutSoa.html" class="account">About SOA</a></li>
+                        <li><a href="aboutArtist.html" class="account">About Artist</a></li>
+                        <li><a href="video.html">Videos</a></li>
+                        <li><a href="contact.html" class="account">Contact</a></li>
+                        <li><button class="your-cart js-toggle-cart" data-item-num="1"><i class="fa fa-lg fa-shopping-cart"></i></button></li>
+                        <li id="widget ">
+                            <div class="btn-o bg" data-scribe="component:button" style="width: 100%;"><a href="https://www.instagram.com/_seeds_of_art_/" class="btn" id="b"><i class="fa fa-instagram ft14"></i><span class="label" id="l"></span></a></div>
+                        </li>
+                        <li><a href="login.html" class="account">Login</a></li>
+                        <div class="search-container" method="get">
+                            <form>
+                                <input type="text" placeholder="Search.." name="search">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="site-toolbar">
+                <div class="inner-wrap clearfix">
+                    <div class="notifications animated"><span>Amazing Product</span> Added to Cart!</div>
+                </div>
+            </div>
+
+            <div class="filter-grid">
+                <div class="inner-wrap">
+                    <div class="filter-cell">
+                        <select class="form-control">
+          <option value="*">Category</option>
+          <option value="landscape">Landscpaes</option>
+          <option value="human">Human</option>
+          <option value="animal">Animal</option>
+          <option value="flower">Flowers</option>
+          <option value="food">Food</option>
+          <option value="drink">Drinks</option>
+        </select>
+                    </div>
+                    <div class="filter-cell">
+                        <select class="form-control">
+          <option  value="*">Canvas size</option>
+          <option value="square">10x10</option>
+          <option value="rectangle">50x100</option>
+        </select>
+                    </div>
+                    <div class="filter-cell">
+                        <select class="form-control">
+                            <option  value="*">Price</option>
+          <option  value="twenty">$19.99-$49.99</option>
+          <option  value="fifty">$50-$99.99</option>
+          <option  value="hundred">$100-$499.99</option>
+          <option  value="thousand">$500-$999.99</option>
+        </select>
+                    </div>
+                    <div class="filter-cell">
+                        <select class="form-control">
+          <option value="*">Status</option>
+          <option  value="sold">Sold</option>
+          <option  value="available">Available</option>
+        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-wrap content-wrap">
+
+                <div class="product-grid">
+                    <div class="grid-product square landscape twenty sold">
+                        <div class="img-name waves">
+                            <h4>Waves
+                            </h4>
+                        </div>
+                        <p class="price">$24.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product square landscape fifty">
+                        <div class="img-name evening">
+                            <h4>Evening</h4>
+                        </div>
+                        <p class="price">$79.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product landscape square twenty">
+                        <div class="img-name minivan">
+                            <h4>Minivan</h4>
+                        </div>
+                        <p class="price">$39.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product animal sold square fifty">
+                        <div class="img-name bees">
+                            <h4>Bees</h4>
+                        </div>
+                        <p class="price">$99.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product square fifty">
+                        <div class="img-name starry">
+                            <h4>Starry Night</h4>
+                        </div>
+                        <p class="price">$89.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product fifty rectangle thousand drink sold">
+                        <div class="img-name whisky">
+                            <h4>Whisky</h4>
+                        </div>
+                        <p class="price">$999.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product landscape square twenty">
+                        <div class="img-name building">
+                            <h4>Buildings</h4>
+                        </div>
+                        <p class="price">$24.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product landscape fifty square">
+                        <div class="img-name ice">
+                            <h4>Ice Skaters</h4>
+                        </div>
+                        <p class="price">$69.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product animal rectangle thousand">
+                        <div class="img-name cat">
+                            <h4>Cat</h4>
+                        </div>
+                        <p class="price">$799.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product landscape square fifty">
+                        <div class="img-name park">
+                            <h4>Amusement Park</h4>
+                        </div>
+                        <p class="price">$64.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product circular square fifty">
+                        <div class="img-name rain">
+                            <h4>Rainy Day
+                            </h4>
+                        </div>
+                        <p class="price">$84.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product hundred landscape square">
+                        <div class="img-name home">
+                            <h4>Home</h4>
+                        </div>
+                        <p class="price">$119.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product available flower">
+                        <div class="img-name flowers">
+                            <h4>Flower</h4>
+                        </div>
+                        <p class="price">$299.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product human square hundred">
+                        <div class="img-name scream">
+                            <h4>Scream</h4>
+                        </div>
+                        <p class="price">$299.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product food hundred square">
+                        <div class="img-name tomato">
+                            <h4>Tomato</h4>
+                        </div>
+                        <p class="price">$119.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+                    <div class="grid-product square landscape hundred">
+                        <div class="img-name fairy">
+                            <h4>Fairy Home</h4>
+                        </div>
+                        <p class="price">$399.99 <button class="add-to-cart js-add-to-cart btn">Add</button>
+                            <p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="sticky"></div>
+
+        </div>
+
+        <div class="cart">
+
+            <div class="inner-wrap">
+                <h2>Your Cart</h2>
+
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th class="product-remove">Remove Items</th>
+                            <th class="product-name">Product</th>
+                            <th class="product-price">Price</th>
+                            <th class="product-quantity">Quantity</th>
+                            <th class="product-line-total">Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="product-camera">
+                            <td><button type="button" class="product-remove" data-id="product-camera"><i class="fa fa-times"></i></button></td>
+                            <td>Camera</td>
+                            <td class="product-price" data-price="3.99">3.99</td>
+                            <td class="product-quantity">
+                                <input type="number" pattern="\d*" step="1" min="1" max="5" value="1" data-id="product-camera">
+                                <button class="plus js-number-control">
+              <i class="fa fa-plus-square"></i>
+            </button>
+                                <button class="minus js-number-control">
+              <i class="fa fa-minus-square"></i>
+            </button>
+                            </td>
+                            <td class="product-line-total" id="product-camera-total" data-line-total="3.99">3.99</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+    </main>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js'></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
